@@ -1,6 +1,6 @@
 # One Month JS
 
-[Course Link] (https://onemonth.com/courses/javascript/curriculum) 
+[Course Link](https://onemonth.com/courses/javascript/curriculum) 
 
 # Week 1 Homework
 
@@ -16,8 +16,8 @@
 
 # Solutions
 
-1. & 2. were completed in this [Oprah Project] (https://github.com/williamcferg/one-month-js-hw1/tree/master/oprah-app)
+1. & 2. were completed in this [Oprah Project](https://github.com/williamcferg/one-month-js-hw1/tree/master/oprah-app)
 
-3. Was completed in this [Happy Hour Project] (https://github.com/williamcferg/one-month-js-hw1/tree/master/happyhour-simple)
+3. Was completed in this [Happy Hour Project](https://github.com/williamcferg/one-month-js-hw1/tree/master/happyhour-simple)
 
-4. Was done with my [Random Quote Project] (https://github.com/williamcferg/one-month-js-hw1/tree/master/random-app)
+4. Was done with my [Random Quote Project](https://github.com/williamcferg/one-month-js-hw1/tree/master/random-app)
