@@ -1,10 +1,8 @@
-README.md
-
-#One Month JS
+# One Month JS
 
 [Course Link] (https://onemonth.com/courses/javascript/curriculum) 
 
-#Week 1 Homework
+# Week 1 Homework
 
 1. On the Oprah app, right now if "Chris" comes to the site he gets a car. Write the code so that if "Chris" and YOU come to the site we both get cars. But no on else gets cars! Just you and me. (hint: else if)
 
@@ -16,7 +14,7 @@ README.md
 
 5. Suggested reading: <http://eloquentjavascript.net/01_values.html>
 
-#Solutions
+# Solutions
 
 1. & 2. were completed in this [Oprah Project] (https://github.com/williamcferg/one-month-js-hw1/tree/master/oprah-app)
 
