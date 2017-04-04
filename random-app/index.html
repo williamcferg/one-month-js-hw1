@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description">
+		<meta name="keywords">
+
+		<title>Random Quotes</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<script>
+
+			var quotes = new Array 
+
+			("You don't need a mirror to know you look good. You're beautiful on the inside. Like your brain and stuff!", 
+				"Dude, suckin' at something is the first step to being sorta good at something.", "Let's always be stupid. Forever.", 
+				"When bad things happen, I know you want to believe they are a joke, but sometimes life is scary and dark. That is why we must find the light.", 
+				"Maybe we should hold hands... For safety.", 
+				"No one flicks me in the butt without my constent!");
+
+			document.write("<h1>Adventure Time Quotes</h1>");
+
+			var randomQuotes = Math.floor(Math.random()*quotes.length);
+
+			displayQuote = quotes[randomQuotes];
+
+			document.write("''" + displayQuote + "''");
+
+		</script>
+
+		<br></br>
+
+		<input type="button" value="New Quote" onClick="window.location.reload()">
+
+	</body>
+</html>

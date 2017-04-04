@@ -1,0 +1,25 @@
+
+body { 
+	background: url(../images/test.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-top: 150px;
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+}
+
+input {
+	color: #FFF;
+	background: #009688;
+	width: 100px;
+	border: 2px solid;
+    border-radius: 25px;
+    font-family: 'Lato', sans-serif;
+}

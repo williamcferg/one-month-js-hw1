@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Oprah Likes You. And so do other people.</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+		<style>
+			
+			/* Basic CSS comment */	
+			body {
+				background: #FFF;
+				color: #FF5722;
+				width: 960px;
+				margin: 0 auto;
+				font-size: 50px;
+				color: black;
+			}
+
+			h1 {
+				font-size: 50px;
+				font-family: 'Roboto', sans-serif;
+				color: #FF5722;
+				text-align: center;
+			}
+
+			img.circle {
+				border-radius: 50%;
+				width: 390px;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -38%);
+			}
+
+			img.small {
+				width: 150px;
+				padding-left: 50px;
+				position: fixed;
+				top: 5%;
+			}
+
+		</style>
+
+		<script>
+			/* this is an event */
+			// single line commment
+
+			var username = prompt("Who's visiting the page today?");
+
+			var car = new Array("BMW", "Prius", "Old Truck");
+
+			var carPicture = new Array("<img class='small' src='images/bmw.jpg'>", "<img class='small' src='images/prius.jpg'>", "<img class='small' src='images/truck.jpg'>");
+
+			var carSet = new Array(car[0] + carPicture[0], car[1] + carPicture[1], car[2] + carPicture[2]);
+
+			var randomCar = Math.floor(Math.random()*carSet.length);
+
+			var carName = carSet[randomCar];
+
+			if (username==="Chris") {
+				document.write("<h1>Hello " + username + " you won a " + carName +"!</h1>");
+			}
+			else if (username==="William") {
+				document.write("<h1>Hello " + username + " you won a " + carName +"!</h1>");
+			}
+			else {
+				document.write("<h1>Hello " + username + "!</h1>");
+			}	
+
+		</script>
+
+	</head>
+ 	
+	<body>
+		<img class="circle" src="images/oprah.jpg" alt="Oprah">
+	</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Happy Hour App - How about a drink!?">
+		<meta name="keywords" content="happy hour, drink, beers">
+
+		<title>Happy Hour</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script>
+		
+			// Our List of Bars
+			var bars = [
+				'Siggys',
+				'Blind Tiger',
+				'Zum Schneider',
+				'Union Pool',
+				'Decibel'
+			];
+
+			// Our List of Friends
+			var friends = [
+				'Mattan',
+				'Chris',
+				'Lee',
+				'Jess',
+				'Joanna'
+			];
+
+			var randomNumberB = Math.floor(Math.random()*bars.length);
+			var randomNumberF = Math.floor(Math.random()*friends.length);
+			var friendname = friends[randomNumberF];
+			var barname = bars[randomNumberB];
+
+			document.write("How about you go to <strong>" + barname + "</strong> with <strong>" + friendname + "</strong>?");
+
+		</script>
+	</head>
+	<body>
+
+	<br></br>
+	
+		<script>
+			
+			if (barname==='Siggys') {
+				document.write("<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.69407823506!2d-73.99531814924617!3d40.72475057922915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259850cbcc303%3A0x306bb91aab0eba0d!2sSiggy&#39;s+Good+Food!5e0!3m2!1sen!2sus!4v1491198181614' width='400' height='300' frameborder='0' style='border:0' allowfullscreen></iframe>");
+			}
+
+			else if (barname==='Blind Tiger') {
+				document.write("<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.370910909866!2d-74.00543074924596!3d40.73186327922839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25993a10b6e59%3A0x974ded5ed3f5e014!2sBlind+Tiger!5e0!3m2!1sen!2sus!4v1491198154265' width='400' height='300' frameborder='0' style='border:0' allowfullscreen></iframe>");
+			}
+
+			else if (barname==='Zum Schneider') {
+				document.write("<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.716639641579!2d-73.98111104924621!3d40.72425397922923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25979dcad5647%3A0xeb77bc74cd054f06!2sZum+Schneider+NYC!5e0!3m2!1sen!2sus!4v1491198116093' width='400' height='300' frameborder='0' style='border:0' allowfullscreen></iframe>");
+			}
+
+			else if (barname==='Union Pool') {
+				document.write("<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1384951936534!2d-73.95370684924654!3d40.71496757923019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259596cfc174d%3A0x86b6b9e123c6dd36!2sUnion+Pool!5e0!3m2!1sen!2sus!4v1491198077278' width='400' height='300' frameborder='0' style='border:0' allowfullscreen></iframe>");
+			}
+
+			else {
+				document.write("<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.4881210739277!2d-73.98998424924602!3d40.72928367922857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2599c6f5276fb%3A0xb5c170a3408fbd0d!2sSake+Bar+Decibel!5e0!3m2!1sen!2sus!4v1491197422656' width='400' height='300' frameborder='0' style='border:0' allowfullscreen></iframe>");
+			}
+
+		</script>
+
+	</body>
+</html>
